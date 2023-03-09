@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  margin: auto;
+  width: 300px;
+  text-align: center;
+}
+
+.main {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-item #checkDone,
+.list-item .btn {
+  cursor: pointer;
+}
+
+.todo-btn {
+  display: flex;
+}
+
+.btn {
+  margin-left: 10px;
+}
+
+.todo-input {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-input .todo-job {
+  padding: 5px;
+  margin-right: 10px;
+  flex: 1;
+}
+
+.btn-submit {
+  padding: 5px;
+}
